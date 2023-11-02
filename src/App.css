@@ -108,7 +108,7 @@ body {
 
 .navBarWrapper{
    width: 100%;
-   background-color: white;
+   background-color: transparent;
    display: flex;
    flex-direction: row;
    flex-wrap: nowrap;
