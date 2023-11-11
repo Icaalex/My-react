@@ -7,8 +7,7 @@ import { Gallery } from './pages/gallery';
 function App() {
   return (
     <div className="App">
-     {/* <Home/> */}
-     <Gallery />
+     <Home/>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 
 import { NavBar } from './../components/NavBar';
 import { Button } from './../components/Button';
+import { Gallery } from './gallery';
 
 export const HeroSection = () => {
     return(
@@ -23,6 +24,7 @@ export const Home = () => {
         <div className="container">
            <NavBar/>
            <HeroSection />
+           <Gallery />
         </div>
     )
 }
