@@ -12,7 +12,7 @@ export const HeroSection = () => {
                 <div className="c2">perfect church for imperfect people</div>
                 <div className="c3">far far away, behind the world montains, far from te 
                 countries vocaliar and consonatia, there live the blind text. Separated they lived in.</div>
-                <Button btnTxt="register now" />
+                <Button btnTxt={<a href="https://payslate.com.ng">Register now</a>} />
 
             </div>
         </div>
