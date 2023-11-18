@@ -1308,15 +1308,31 @@ padding-top: 1rem;
   font-size: 400;
   color: #bbb;
   padding-top: 3rem;
-}
+}.navBarWrapper-1
 .footer-wrap-2 span{
   color: #cd103c;
 }
+/* end of styles for home page */
+
+/* styles for forms page */
+.formsSection{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 4rem;
+}
 
 
+/* media query responsive */
 @media screen and (max-width: 760px) {
   .navBarWrapper-1 {
     display: block;
+  }
+  #responsive{
+    display: none;
   }
   
   .navBarWrapper {

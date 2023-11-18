@@ -25,6 +25,8 @@ import imgf from "../assets/image/twitter.png";
 
 
 export const BodyWrapper = ( ) => {
+      
+
     return(
         <div className="body-content">
             <div className="wrapper-content-1 d-flex-2 row flex-wrap">

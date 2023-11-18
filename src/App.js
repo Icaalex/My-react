@@ -4,11 +4,13 @@ import { Button } from './components/Button';
 import { Home } from './pages/Home';
 import { Gallery } from './pages/gallery';
 import { Port} from './bin/Home-page' ;
+import { Forms } from "./pages/FormsPage";
 
 function App() {
   return (
     <div className="App">
       < Home/>
+      {/* <Forms/> */}
      {/* <Port/>  */}
       {/* <Gallery />  */}
     </div>
