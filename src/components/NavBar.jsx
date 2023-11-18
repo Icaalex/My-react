@@ -16,7 +16,7 @@ export const NavBar = () => {
           {/* company nav links starts here */}
             <ul>
                 <li><a href="#">home</a></li>
-                <li><a href="#">shop</a></li>
+                <li><a href="gallery">gallery</a></li>
                 <li><a href="#">about us</a></li>
                 <li><a href="#">newsletters</a></li>
                 <li><a href="#">contacts</a></li>
