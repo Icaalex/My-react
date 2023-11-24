@@ -2,8 +2,6 @@
 import { NavBar } from '../components/NavBar';
 import { Button } from '../components/Button';
 import { BodyWrapper } from '../components/Body-content';
-import { NavBar } from './../components/NavBar';
-import { Button } from './../components/Button';
 import { Gallery } from './gallery';
 
 export const HeroSection = () => {
@@ -28,7 +26,6 @@ export const Home = () => {
            <NavBar/>
            <HeroSection />
            <BodyWrapper/>
-           <Gallery />
         </div>
     )
 }

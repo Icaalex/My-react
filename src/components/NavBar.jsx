@@ -5,15 +5,15 @@ import icon from "../assets/image/icons9.png";
 export const NavBar = () => {
     // const elem = document.getElementById("responsive");
 
-    // function myFunction(){
-    //     if (elem.style.display === "none") {
-    //         elem.style.display = "block"
-    //     } else {
-    //         elem.style.display = "none"
-    //     }
+    //  function myFunction(){
+    //      if (elem.style.display === "none") {
+    //          elem.style.display = "block"
+    //      } else {
+    //          elem.style.display = "none"
+    //      }
 
         
-    // }
+    //  }
     
     return(
         // company info starts here
@@ -50,14 +50,14 @@ export const NavBar = () => {
 
          <div className="navBarWrapper-1" >
             <div className="d-flex-2 row">
-            <div className="companyInfo">
-                <div className="logo" onClick={myFunction()}>
+              <div className="companyInfo">
+                <div className="logo" >
                     <img src={logo} alt="logo"  />
                 </div>
                 <div className="companyName">
                         react company
                 </div>
-            </div>
+              </div>
             <div className="lg" >
                 <img src={icon} alt="icon" srcset="" />
             </div>
